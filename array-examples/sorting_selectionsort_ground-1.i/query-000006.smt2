@@ -1,0 +1,7 @@
+(set-info :status unknown)
+(declare-const symbol_0 (_ BitVec 32))
+(declare-const symbol_1 (_ BitVec 32))
+(declare-const symbol_2 (_ BitVec 32))
+(assert (bvslt symbol_2 symbol_1))
+(assert (bvslt symbol_1 symbol_0))
+(check-sat)

@@ -1,0 +1,5 @@
+(set-info :status sat)
+(declare-const symbol_0 (_ BitVec 32))
+(assert (not (= symbol_0 (_ bv8 32))))
+(assert (not (= symbol_0 (_ bv1 32))))
+(check-sat)

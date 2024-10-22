@@ -1,0 +1,8 @@
+(set-info :status unknown)
+(declare-const symbol_4 (_ BitVec 32))
+(declare-const symbol_0 (_ BitVec 32))
+(declare-const symbol_1 (_ BitVec 32))
+(assert (not (not (= symbol_4 (_ bv7 32)))))
+(assert (not (not (= symbol_1 (_ bv7 32)))))
+(assert (not (not (= symbol_0 (_ bv7 32)))))
+(check-sat)
